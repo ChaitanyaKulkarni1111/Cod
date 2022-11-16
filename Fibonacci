@@ -1,0 +1,11 @@
+a = int(input("Enter the number:"))
+n1 , n2 = 0,1
+rum = 0
+for i in range(0, a):
+    if i<0:
+        print("enter the valid the number")
+    else :
+        print(rum, end=" ")
+        n1 = n2
+        n2 = rum
+        rum = n1 + n2
